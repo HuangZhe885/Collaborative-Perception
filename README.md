@@ -6,3 +6,4 @@ Multi-agent collaborative perception could significantly upgrade the perception 
 
 https://user-images.githubusercontent.com/44192081/232229098-8d5a62a6-ac25-4e82-95ee-00d89994eec3.mp4
 
+<img width="975" alt="WechatIMG18243" src="https://user-images.githubusercontent.com/44192081/232229288-0d9cf794-babd-4d16-ae7d-1bdf8f9b1d24.png">

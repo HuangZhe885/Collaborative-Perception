@@ -35,4 +35,7 @@ We evaluate the effectiveness of the proposed AEV2V on  the V2V perception datas
 <img width="70%" alt="WechatIMG214" src="https://user-images.githubusercontent.com/44192081/232230149-82dd9560-3fcf-4168-9925-80b48c120b7c.png">
 <img width="70%" alt="WechatIMG214" src="https://user-images.githubusercontent.com/44192081/232230167-bc661a63-bdb7-451c-b62f-fa0f82164e9b.png">
 
+# CONCLUSION
+
+We porpose AEV2V, a novel detection-efficient collaborative perception framework. Our main contributions include the spatical-semantic attention model for extracting  dilated spatial confidence map at each agent to promote pragmatic compression; we also propose a Confidence Fused axial attention (Co-FAX) method that can handle the information fusion of multi-agents and multi-views. It not only implements a combination of global and local attention methods in the high-dimensional feature space, but it also makes use of essential information from the upstream network for more focused fusion. To alleviate the misalignment between the localization accuracy and classification confidence, we design the confidence-aware IoU rectification module for post-processing the confidence. Extensive experiments on simulated  datasets  show that AEV2V achieves superior performance on multi-agent cooperative 3D object detection.
 

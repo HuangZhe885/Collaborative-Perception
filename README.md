@@ -2,7 +2,6 @@
 
 # AEV2V: Accurate and Efficient Vehicle-to-Vehicle Collaborative Perception
 
-![WechatIMG207](https://user-images.githubusercontent.com/44192081/232229563-7e5027a7-9db9-4ffc-8d34-a8b6a73d9de8.jpeg)
 
 Multi-agent collaborative perception could significantly upgrade the perception performance by enabling agents to share information with each other through communication.However, duplicated data sharing and high communication overhead remain significant barriers to real-time communication for autonomous driving. 
 <img width="70%" alt="WechatIMG206" src="https://user-images.githubusercontent.com/44192081/232229359-c2b8907d-31c9-4fd3-984b-0c153b6927ca.png">
@@ -12,4 +11,13 @@ Using spatially sparse depth information can reduce the amount of shared data, h
 
 https://user-images.githubusercontent.com/44192081/232229098-8d5a62a6-ac25-4e82-95ee-00d89994eec3.mp4
 
+
+# METHOD
+* we design a lightweight spatial semantic feature module, which expands the receptive field of the confidence map, making the confidence map richer in spatial and semantic information.
+<img width="60%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229752-7e397f39-6981-41ec-8e64-5c3a709ad49c.png">
+
+* The Confidence Fused axial attention (Co-FAX) method was proposed to handle the information fusion of multi-agents and multi-views.   
+
+* The predicted confidence is further rectified with our designed IoU-aware confidence rectification module to make the confidence more consistent with the localization accuracy.
+<img width="60%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229782-070cc47c-c56c-4424-91c5-ef24865d9193.jpeg">
 

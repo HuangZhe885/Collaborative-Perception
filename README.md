@@ -14,10 +14,19 @@ https://user-images.githubusercontent.com/44192081/232229098-8d5a62a6-ac25-4e82-
 
 # METHOD
 * we design a lightweight spatial semantic feature module, which expands the receptive field of the confidence map, making the confidence map richer in spatial and semantic information.
-<img width="60%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229752-7e397f39-6981-41ec-8e64-5c3a709ad49c.png">
+<img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229752-7e397f39-6981-41ec-8e64-5c3a709ad49c.png">
 
 * The Confidence Fused axial attention (Co-FAX) method was proposed to handle the information fusion of multi-agents and multi-views.   
 
 * The predicted confidence is further rectified with our designed IoU-aware confidence rectification module to make the confidence more consistent with the localization accuracy.
-<img width="60%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229782-070cc47c-c56c-4424-91c5-ef24865d9193.jpeg">
+<img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229782-070cc47c-c56c-4424-91c5-ef24865d9193.jpeg">
+
+# RESULTS
+We evaluate the effectiveness of the proposed AEV2V on  the V2V perception dataset V2XSet. 
+
+<img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229918-3b35f90c-53ea-43ad-b8fb-5ffc1de73fe4.jpeg">
+* Component ablation study
+<img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229935-f1d5c328-ef78-4b31-8819-f2c81434bb11.jpeg">
+# Visualization of collaboration
+
 

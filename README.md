@@ -28,7 +28,11 @@ We evaluate the effectiveness of the proposed AEV2V on  the V2V perception datas
 * Component ablation study
 <img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229935-f1d5c328-ef78-4b31-8819-f2c81434bb11.jpeg">
 * Major components comparisons of collaborative perception systems.
-<img width="50%" alt="WechatIMG209" src="[https://user-images.githubusercontent.com/44192081/232229782-070cc47c-c56c-4424-91c5-ef24865d9193.jpeg](https://user-images.githubusercontent.com/44192081/232230047-e976b70b-873d-4b7a-8438-e8ccd9b74ef7.jpeg)">
+<img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232230105-032371c8-9d80-46e8-9066-f05b40817916.jpeg">
+
 # Visualization of collaboration
+
+<img width="70%" alt="WechatIMG214" src="https://user-images.githubusercontent.com/44192081/232230149-82dd9560-3fcf-4168-9925-80b48c120b7c.png">
+<img width="70%" alt="WechatIMG214" src="https://user-images.githubusercontent.com/44192081/232230167-bc661a63-bdb7-451c-b62f-fa0f82164e9b.png">
 
 

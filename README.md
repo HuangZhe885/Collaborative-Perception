@@ -34,20 +34,18 @@ For communication efficiency and object detection accuracy, we focus on maximizi
 # RESULTS
 We evaluate the effectiveness of the proposed AEV2V on  the V2V perception dataset V2XSet. 
 
-<img width="50%" alt="image" src="https://github.com/HuangZhe885/Collaborative-Perception/assets/44192081/1441ef0d-d7bf-47b4-bb63-a6edc9e97ba5">
-<img width="50%" alt="image" src="https://github.com/HuangZhe885/Collaborative-Perception/assets/44192081/dd1360e2-317d-4c65-bb39-7927cbbd3c50">
+<img width="80%" alt="image" src="https://github.com/HuangZhe885/Collaborative-Perception/assets/44192081/1441ef0d-d7bf-47b4-bb63-a6edc9e97ba5">
 
-* Component ablation study
-<img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232229935-f1d5c328-ef78-4b31-8819-f2c81434bb11.jpeg">
-* Major components comparisons of collaborative perception systems.
-<img width="50%" alt="WechatIMG209" src="https://user-images.githubusercontent.com/44192081/232230105-032371c8-9d80-46e8-9066-f05b40817916.jpeg">
+
 
 # Visualization of collaboration
 
-<img width="70%" alt="WechatIMG214" src="https://user-images.githubusercontent.com/44192081/232230149-82dd9560-3fcf-4168-9925-80b48c120b7c.png">
-<img width="70%" alt="WechatIMG214" src="https://user-images.githubusercontent.com/44192081/232230167-bc661a63-bdb7-451c-b62f-fa0f82164e9b.png">
+<img width="80%" alt="image" src="https://github.com/HuangZhe885/Collaborative-Perception/assets/44192081/dd1360e2-317d-4c65-bb39-7927cbbd3c50">
+<img width="576" alt="image" src="https://github.com/HuangZhe885/Collaborative-Perception/assets/44192081/b778833c-bbd6-4c3e-8791-54baad2de9b9">
+
 
 # CONCLUSION
-
-We porpose AEV2V, a novel detection-efficient collaborative perception framework. Our main contributions include the spatical-semantic attention model for extracting  dilated spatial confidence map at each agent to promote pragmatic compression; we also propose a Confidence Fused axial attention (Co-FAX) method that can handle the information fusion of multi-agents and multi-views. It not only implements a combination of global and local attention methods in the high-dimensional feature space, but it also makes use of essential information from the upstream network for more focused fusion. To alleviate the misalignment between the localization accuracy and classification confidence, we design the confidence-aware IoU rectification module for post-processing the confidence. Extensive experiments on simulated  datasets  show that AEV2V achieves superior performance on multi-agent cooperative 3D object detection.
+In this paper, we have developed a novel deep learning based framework for collaborative object detection to improve the perception capabilities of autonomous vehicles. It consists of multiple modules designed to learn critical information from collaborating vehicles and address data heterogeneity. This framework can integrate the learned critical features into the final information fusion, assisting single vehicle in being informed about distant occluded objects and enhancing decision-making capabilities. 
+Extensive experiments conducted on three public datasets demonstrate the effectiveness and robustness of the proposed method, showcasing better performance than the state-of-the-art methods. We believe that our research results contribute to improving the accuracy of collaborative perception in autonomous driving.
+Future work will investigate methods to compensate for delay in feature transmission and adjust object pose and continue to deepen our understanding of  collaborative 3D object detection.
 
